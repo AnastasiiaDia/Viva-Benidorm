@@ -3,9 +3,9 @@ body {
   font-size: medium;
   text-align: center;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
   body {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 .container {
