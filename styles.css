@@ -5,13 +5,48 @@ body {
 
   /* background-color: aqua; */
 }
-
-link {
-  text-decoration: none;
-}
-.wrapper {
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+ul {
+  list-style-type: none;
+}
+link {
+  text-decoration: none;
+}
+
+.main-img {
+  width: 95vw;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.card-img {
+  width: 30vw;
+}
+.card-link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img {
+  display: block;
+}
+/* .address-list {
+  display: flex;
+  flex-direction: wrap;
+  gap: 60px;
+} */
+.wrapper {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
   gap: 50px;
+  align-items: center;
+  justify-content: center;
 }
